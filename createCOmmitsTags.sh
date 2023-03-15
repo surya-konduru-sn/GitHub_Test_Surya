@@ -10,7 +10,4 @@ do
  x=$[$x+1]
  git push
 sleep 600
- #git tag -a Pt100.$((j+x)) -m "vversion Pt10.1$((j+x))"
- #git push --tags origin
 done
-#git push
