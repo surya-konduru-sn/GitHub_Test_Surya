@@ -5,9 +5,12 @@ while [ $x -le 8000 ]
 do
  rm -rf random*
  string="touch randomfile$((j+x)) && git add . && git commit -m '$((j+x)):randfile_$((j+x))'"
- echo $string "HIIIIII"
+ echo $string
  eval "$string"
- x= $[$x+1]
+ x=$[$x+1]
+ sleep 6.0
  git push
-sleep 10
+ #git tag -a Pt100.$((j+x)) -m "vversion Pt10.1$((j+x))"
+ #git push --tags origin
 done
+#git push
