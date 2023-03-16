@@ -9,5 +9,5 @@ do
  eval "$string"
  x=$[$x+1]
  git push
-sleep 600
+sleep 10
 done
