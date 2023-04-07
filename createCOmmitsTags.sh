@@ -8,7 +8,7 @@ do
  echo $string
  eval "$string"
  x=$[$x+1]
- sleep 600.0
+ sleep 60.0
  git push
  #git tag -a Pt100.$((j+x)) -m "vversion Pt10.1$((j+x))"
  #git push --tags origin
