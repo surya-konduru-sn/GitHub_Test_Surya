@@ -18,7 +18,7 @@ jobs:
       - name: Maven Build
         run: mvn clean install -DskipTests=true
         
-#       - name: Sonar Cloud Analysis
+##       - name: Sonar Cloud Analysis
 #         if: success() # always() failure() success()
 #         run: >
 #             mvn -B verify -DskipTests sonar:sonar
