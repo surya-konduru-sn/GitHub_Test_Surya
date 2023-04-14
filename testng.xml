@@ -4,7 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.test.firstTest"/>
-      <class name="com.test.secondTecdst"/>
+      <class name="com.test.secondTest"/>
     </classes>
   </test>
 </suite>
