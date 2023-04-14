@@ -90,7 +90,7 @@ jobs:
 #           package-name: 'autoclaim.war'
       
   deploy:
-#     needs: integrationTest
+    needs: build
     name: Deploy
     runs-on: ubuntu-latest
     steps:     
